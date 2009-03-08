@@ -163,6 +163,8 @@
 					<string>word</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>MD5</string>
 					<key>output</key>
@@ -177,6 +179,8 @@
 					<string>word</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Base64 encode</string>
 					<key>output</key>
@@ -191,6 +195,8 @@
 					<string>word</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Base64 decode</string>
 					<key>output</key>
@@ -244,6 +250,8 @@
 					<string>none</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Unordered list</string>
 					<key>output</key>
@@ -258,6 +266,8 @@
 					<string>none</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Ordered list</string>
 					<key>output</key>
@@ -272,6 +282,8 @@
 					<string>none</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Encode entities</string>
 					<key>output</key>
@@ -286,6 +298,8 @@
 					<string>none</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Decode entities</string>
 					<key>output</key>
@@ -300,6 +314,8 @@
 					<string>none</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Encode entites (exclude tags)</string>
 					<key>output</key>
@@ -312,6 +328,27 @@
 			</array>
 			<key>name</key>
 			<string>HTML</string>
+		</dict>
+		<dict>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>fallbackInput</key>
+					<string>document</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>name</key>
+					<string>Indent</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>php-indent.php</string>
+					<key>uuid</key>
+					<string>FC24FBAD-9779-4D30-B9D5-4180C6C56DAF</string>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>PHP</string>
 		</dict>
 	</array>
 </dict>
