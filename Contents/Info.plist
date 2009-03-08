@@ -235,7 +235,7 @@
 					<key>keyEquivalentConflict</key>
 					<false/>
 					<key>name</key>
-					<string>URL escape line/selection</string>
+					<string>URL escape</string>
 					<key>output</key>
 					<string>replaceSelectedText</string>
 					<key>script</key>
@@ -251,7 +251,7 @@
 					<key>keyEquivalentConflict</key>
 					<false/>
 					<key>name</key>
-					<string>URL unescape line/selection</string>
+					<string>URL unescape</string>
 					<key>output</key>
 					<string>replaceSelectedText</string>
 					<key>script</key>
