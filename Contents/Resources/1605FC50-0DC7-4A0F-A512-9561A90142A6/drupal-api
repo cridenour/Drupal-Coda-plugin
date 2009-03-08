@@ -1,0 +1,15 @@
+#!/bin/bash
+if grep <<<${CODA_SELECTED_TEXT:-!} -Esq '^[a-zA-Z0-9_]+$'
+then
+FILENAME=${CODA_FILEPATH##*/}
+BASENAME=${FILENAME%%.*};
+if [ `echo "$CODA_SELECTED_TEXT" | grep -E "${BASENAME}_[0-9A-Za-z_]"` ]
+then
+HOOK=${CODA_SELECTED_TEXT##${BASENAME}}
+URL="http://api.drupal.org/api/function/hook${HOOK}/6"
+else
+URL="http://api.drupal.org/api/search/6/${CODA_SELECTED_TEXT}"
+fi
+echo "<meta http-equiv='Refresh' content='0;URL=$URL'>"
+else echo "Nothing to lookup (hint: place the caret on a function name)"
+fi
