@@ -337,6 +337,10 @@
 					<string>document</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalent</key>
+					<string>^i</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Indent</string>
 					<key>output</key>
