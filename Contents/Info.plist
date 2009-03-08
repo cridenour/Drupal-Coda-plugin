@@ -107,7 +107,7 @@
 					<key>keyEquivalentConflict</key>
 					<false/>
 					<key>name</key>
-					<string>Reset cron semaphore</string>
+					<string>Delete cron semaphore</string>
 					<key>script</key>
 					<string>drupal-reset-cron-semaphore.php</string>
 					<key>uuid</key>
