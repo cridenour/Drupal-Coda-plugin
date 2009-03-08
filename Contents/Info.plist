@@ -47,6 +47,22 @@
 				</dict>
 				<dict>
 					<key>fallbackInput</key>
+					<string>word</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
+					<key>name</key>
+					<string>Remove db query table accolades</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>remove-table-accolades.php</string>
+					<key>uuid</key>
+					<string>6F29BF91-BE52-4564-8ECF-04E031FC16CF</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
 					<string>none</string>
 					<key>keyEquivalent</key>
 					<string>^c</string>
@@ -88,6 +104,8 @@
 				<dict>
 					<key>fallbackInput</key>
 					<string>none</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Reset cron semaphore</string>
 					<key>script</key>
