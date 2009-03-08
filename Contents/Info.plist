@@ -64,6 +64,8 @@
 				<dict>
 					<key>fallbackInput</key>
 					<string>none</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Run cron</string>
 					<key>script</key>
@@ -142,6 +144,71 @@
 				</dict>
 				<dict>
 					<key>fallbackInput</key>
+					<string>word</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
+					<key>name</key>
+					<string>Slug</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>slug.php</string>
+					<key>uuid</key>
+					<string>F40D4F48-D8E9-4736-8ABA-915FD1A619CC</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>word</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>name</key>
+					<string>MD5</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>md5.php</string>
+					<key>uuid</key>
+					<string>477680D9-7B57-41B9-8A14-D3895143F6F5</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>word</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>name</key>
+					<string>Base64 encode</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>base64-encode.php</string>
+					<key>uuid</key>
+					<string>A8DEA5F9-FE4A-4F07-B103-BD9516B70FF8</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>word</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>name</key>
+					<string>Base64 decode</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>base64-decode.php</string>
+					<key>uuid</key>
+					<string>512A0FFF-1420-455E-B07E-053874401A08</string>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>Text</string>
+		</dict>
+		<dict>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>fallbackInput</key>
 					<string>line</string>
 					<key>input</key>
 					<string>selection</string>
@@ -174,23 +241,77 @@
 				</dict>
 				<dict>
 					<key>fallbackInput</key>
-					<string>word</string>
+					<string>none</string>
 					<key>input</key>
 					<string>selection</string>
-					<key>keyEquivalentConflict</key>
-					<false/>
 					<key>name</key>
-					<string>Slug</string>
+					<string>Unordered list</string>
 					<key>output</key>
 					<string>replaceSelectedText</string>
 					<key>script</key>
-					<string>slug.php</string>
+					<string>unordered-list.php</string>
 					<key>uuid</key>
-					<string>F40D4F48-D8E9-4736-8ABA-915FD1A619CC</string>
+					<string>CD4D067C-EE0A-46AC-BA06-200ADDEE7F30</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>name</key>
+					<string>Ordered list</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>ordered-list.php</string>
+					<key>uuid</key>
+					<string>7D940339-CFAE-4A30-8BC4-F3EBBAC2D72B</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>name</key>
+					<string>Encode entities</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>encode-entities.rb</string>
+					<key>uuid</key>
+					<string>B55820C0-3CC9-4CDB-AFBD-C02419D026A4</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>name</key>
+					<string>Decode entities</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>decode-entities.rb</string>
+					<key>uuid</key>
+					<string>19019DE2-E46D-4304-BC0D-728225E9C175</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>name</key>
+					<string>Encode entites (exclude tags)</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>encode-entities-exclude-tags.rb</string>
+					<key>uuid</key>
+					<string>990A9226-44F0-42EC-A441-2ECBD9BB35A4</string>
 				</dict>
 			</array>
 			<key>name</key>
-			<string>Text</string>
+			<string>HTML</string>
 		</dict>
 	</array>
 </dict>

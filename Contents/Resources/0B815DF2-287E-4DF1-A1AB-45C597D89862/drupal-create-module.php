@@ -1,11 +1,13 @@
 #!/usr/bin/php
 <?php
 
+$text = stream_get_contents(STDIN);
+
 $dirname = $_ENV['CODA_SITE_LOCAL_PATH'] .'/sites/all/modules/custom';
 
 $module_name = 'New module';
-if (!empty($_ENV['CODA_SELECTED_TEXT'])) {
-  $module_name = $_ENV['CODA_SELECTED_TEXT'];
+if (!empty($text)) {
+  $module_name = $text;
 }
 
 if (!empty($module_name)) {
