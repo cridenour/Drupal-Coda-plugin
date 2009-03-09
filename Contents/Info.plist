@@ -392,7 +392,7 @@
 					<key>output</key>
 					<string>showAsHTML</string>
 					<key>script</key>
-					<string>php-run.sh</string>
+					<string>php-run.php</string>
 					<key>uuid</key>
 					<string>1A79E5AB-F0B2-4CB4-B98A-0C6C64D2151C</string>
 				</dict>
