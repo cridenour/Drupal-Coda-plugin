@@ -378,6 +378,24 @@
 					<key>uuid</key>
 					<string>FC24FBAD-9779-4D30-B9D5-4180C6C56DAF</string>
 				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>input</key>
+					<string>none</string>
+					<key>keyEquivalent</key>
+					<string>$^@r</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
+					<key>name</key>
+					<string>Run</string>
+					<key>output</key>
+					<string>showAsHTML</string>
+					<key>script</key>
+					<string>php-run.sh</string>
+					<key>uuid</key>
+					<string>1A79E5AB-F0B2-4CB4-B98A-0C6C64D2151C</string>
+				</dict>
 			</array>
 			<key>name</key>
 			<string>PHP</string>
