@@ -57,7 +57,7 @@
 					<key>output</key>
 					<string>replaceSelectedText</string>
 					<key>script</key>
-					<string>remove-table-accolades.php</string>
+					<string>drupal-remove-table-accolades.php</string>
 					<key>uuid</key>
 					<string>6F29BF91-BE52-4564-8ECF-04E031FC16CF</string>
 				</dict>
@@ -380,9 +380,9 @@
 				</dict>
 				<dict>
 					<key>fallbackInput</key>
-					<string>none</string>
+					<string>document</string>
 					<key>input</key>
-					<string>none</string>
+					<string>selection</string>
 					<key>keyEquivalent</key>
 					<string>$^@r</string>
 					<key>keyEquivalentConflict</key>
@@ -449,6 +449,8 @@
 					<string>line</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>curl</string>
 					<key>output</key>
@@ -463,6 +465,8 @@
 					<string>line</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>wget</string>
 					<key>output</key>

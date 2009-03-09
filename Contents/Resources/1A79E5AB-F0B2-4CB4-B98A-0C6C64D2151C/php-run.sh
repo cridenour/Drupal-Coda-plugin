@@ -13,8 +13,6 @@ echo '<h2 style="padding-bottom: 10px; border-bottom: 1px solid #999;">'
 echo  "$CODA_FILEPATH"
 echo '</h2>'
 echo '<pre>'
-if [ -f "$CODA_FILEPATH" ]; then
-	/usr/bin/php "$CODA_FILEPATH"
-fi
+echo "$CODA_SELECTED_TEXT" | /usr/bin/php
 echo '</pre>'
 echo '</body>'
