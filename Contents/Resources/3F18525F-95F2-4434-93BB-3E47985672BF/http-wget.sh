@@ -1,2 +1,2 @@
 #/bin/bash
-curl "$CODA_SELECTED_TEXT"
+wget "$CODA_SELECTED_TEXT"
