@@ -426,6 +426,8 @@
 					<string>none</string>
 					<key>input</key>
 					<string>document</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Format</string>
 					<key>output</key>
@@ -438,6 +440,41 @@
 			</array>
 			<key>name</key>
 			<string>XML</string>
+		</dict>
+		<dict>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>fallbackInput</key>
+					<string>line</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>name</key>
+					<string>curl</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>http-curl.sh</string>
+					<key>uuid</key>
+					<string>EF1EB538-022A-4C63-B4DF-150451ACD812</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>line</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>name</key>
+					<string>wget</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>http-wget.sh</string>
+					<key>uuid</key>
+					<string>3F18525F-95F2-4434-93BB-3E47985672BF</string>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>HTTP</string>
 		</dict>
 	</array>
 </dict>
