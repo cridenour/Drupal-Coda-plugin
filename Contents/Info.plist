@@ -396,6 +396,24 @@
 					<key>uuid</key>
 					<string>1A79E5AB-F0B2-4CB4-B98A-0C6C64D2151C</string>
 				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>keyEquivalent</key>
+					<string>^t</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
+					<key>name</key>
+					<string>Tidy</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>php-tidy.sh</string>
+					<key>uuid</key>
+					<string>40F459A6-021C-4E83-9754-DFC4DCEDE652</string>
+				</dict>
 			</array>
 			<key>name</key>
 			<string>PHP</string>
