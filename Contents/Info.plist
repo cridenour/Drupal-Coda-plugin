@@ -116,6 +116,8 @@
 				<dict>
 					<key>fallbackInput</key>
 					<string>none</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Backup</string>
 					<key>output</key>
@@ -245,6 +247,66 @@
 					<string>base64-decode.php</string>
 					<key>uuid</key>
 					<string>512A0FFF-1420-455E-B07E-053874401A08</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>document</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
+					<key>name</key>
+					<string>Join lines</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>text-join-lines.php</string>
+					<key>uuid</key>
+					<string>70FD657B-C24F-496B-84DD-61DC60A0B522</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>document</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>name</key>
+					<string>Trim and join lines</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>text-trim-join.php</string>
+					<key>uuid</key>
+					<string>60526111-DEDA-428C-9D1E-8DE8478DCA25</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>document</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>name</key>
+					<string>Trim and join lines with space</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>text-trim-join-space.php</string>
+					<key>uuid</key>
+					<string>D3F8A2B0-2298-4FB4-9BFF-FFD0CE412ADC</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>document</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
+					<key>name</key>
+					<string>Calculate length</string>
+					<key>output</key>
+					<string>showAsHTML</string>
+					<key>script</key>
+					<string>text-length.php</string>
+					<key>uuid</key>
+					<string>91C288E2-812C-4B5B-8ECB-FBA6F79B02D7</string>
 				</dict>
 			</array>
 			<key>name</key>
