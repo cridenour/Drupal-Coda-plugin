@@ -478,24 +478,6 @@
 					<key>input</key>
 					<string>selection</string>
 					<key>keyEquivalent</key>
-					<string>^i</string>
-					<key>keyEquivalentConflict</key>
-					<false/>
-					<key>name</key>
-					<string>Indent</string>
-					<key>output</key>
-					<string>replaceSelectedText</string>
-					<key>script</key>
-					<string>php-indent.php</string>
-					<key>uuid</key>
-					<string>FC24FBAD-9779-4D30-B9D5-4180C6C56DAF</string>
-				</dict>
-				<dict>
-					<key>fallbackInput</key>
-					<string>document</string>
-					<key>input</key>
-					<string>selection</string>
-					<key>keyEquivalent</key>
 					<string>$^@r</string>
 					<key>keyEquivalentConflict</key>
 					<false/>
