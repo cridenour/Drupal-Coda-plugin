@@ -92,6 +92,8 @@
 				<dict>
 					<key>fallbackInput</key>
 					<string>none</string>
+					<key>input</key>
+					<string>selection</string>
 					<key>keyEquivalentConflict</key>
 					<false/>
 					<key>name</key>
@@ -524,6 +526,20 @@
 					<key>uuid</key>
 					<string>40F459A6-021C-4E83-9754-DFC4DCEDE652</string>
 				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>input</key>
+					<string>document</string>
+					<key>name</key>
+					<string>Validate syntax</string>
+					<key>output</key>
+					<string>showAsHTML</string>
+					<key>script</key>
+					<string>php-validate.php</string>
+					<key>uuid</key>
+					<string>A2D50C9A-3269-485D-AB05-5E0D189D75C6</string>
+				</dict>
 			</array>
 			<key>name</key>
 			<string>PHP</string>
@@ -598,6 +614,8 @@
 					<string>document</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Align assignments</string>
 					<key>output</key>
