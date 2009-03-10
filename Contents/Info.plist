@@ -317,6 +317,8 @@
 					<string>document</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Sort lines</string>
 					<key>output</key>
@@ -331,6 +333,8 @@
 					<string>document</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Sort lines and remove duplicates</string>
 					<key>output</key>
@@ -585,6 +589,27 @@
 			</array>
 			<key>name</key>
 			<string>HTTP</string>
+		</dict>
+		<dict>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>fallbackInput</key>
+					<string>document</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>name</key>
+					<string>Align assignments</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>source-align-assignments.rb</string>
+					<key>uuid</key>
+					<string>6D499026-FB42-4D7A-92C0-E262354668AA</string>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>Source</string>
 		</dict>
 	</array>
 </dict>
