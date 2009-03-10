@@ -269,6 +269,8 @@
 					<string>document</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Trim and join lines</string>
 					<key>output</key>
@@ -283,6 +285,8 @@
 					<string>document</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Trim and join lines with space</string>
 					<key>output</key>
@@ -307,6 +311,34 @@
 					<string>text-length.php</string>
 					<key>uuid</key>
 					<string>91C288E2-812C-4B5B-8ECB-FBA6F79B02D7</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>document</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>name</key>
+					<string>Sort lines</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>text-sort-lines.sh</string>
+					<key>uuid</key>
+					<string>F67B2179-3AE5-4BC6-9631-13FBF686DD06</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>document</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>name</key>
+					<string>Sort lines and remove duplicates</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>text-sort-lines-remove-duplicates.sh</string>
+					<key>uuid</key>
+					<string>883F3AF2-5A14-4F19-8545-2428F70BC022</string>
 				</dict>
 			</array>
 			<key>name</key>
