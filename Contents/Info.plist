@@ -118,6 +118,8 @@
 				<dict>
 					<key>fallbackInput</key>
 					<string>none</string>
+					<key>keyEquivalent</key>
+					<string>^b</string>
 					<key>keyEquivalentConflict</key>
 					<false/>
 					<key>name</key>
@@ -513,6 +515,10 @@
 					<string>none</string>
 					<key>input</key>
 					<string>document</string>
+					<key>keyEquivalent</key>
+					<string>^v</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Validate syntax</string>
 					<key>output</key>
@@ -534,6 +540,8 @@
 					<string>none</string>
 					<key>input</key>
 					<string>document</string>
+					<key>keyEquivalent</key>
+					<string>^f</string>
 					<key>keyEquivalentConflict</key>
 					<false/>
 					<key>name</key>
@@ -557,6 +565,8 @@
 					<string>line</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalent</key>
+					<string>$^c</string>
 					<key>keyEquivalentConflict</key>
 					<false/>
 					<key>name</key>
