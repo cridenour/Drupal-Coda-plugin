@@ -528,6 +528,34 @@
 					<key>uuid</key>
 					<string>A2D50C9A-3269-485D-AB05-5E0D189D75C6</string>
 				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>name</key>
+					<string>Unserialize</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>unserialize.php</string>
+					<key>uuid</key>
+					<string>F8F9FB8B-1E23-4907-BB21-049D044A1FB3</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>name</key>
+					<string>JSON decode</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>json-decode.php</string>
+					<key>uuid</key>
+					<string>694BF9CA-5F70-4F92-9DB7-99BA62DBE1E5</string>
+				</dict>
 			</array>
 			<key>name</key>
 			<string>PHP</string>
