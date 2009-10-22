@@ -1,5 +1,4 @@
 #!/usr/bin/php
-
 <?php
 
 $text = stream_get_contents(STDIN);

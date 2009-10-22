@@ -533,6 +533,8 @@
 					<string>none</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Unserialize</string>
 					<key>output</key>
@@ -547,6 +549,8 @@
 					<string>none</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>JSON decode</string>
 					<key>output</key>
@@ -621,6 +625,20 @@
 					<string>http-wget.sh</string>
 					<key>uuid</key>
 					<string>3F18525F-95F2-4434-93BB-3E47985672BF</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>none</string>
+					<key>input</key>
+					<string>selection</string>
+					<key>name</key>
+					<string>Tiny URL</string>
+					<key>output</key>
+					<string>replaceSelectedText</string>
+					<key>script</key>
+					<string>tiny-url.php</string>
+					<key>uuid</key>
+					<string>EE2E4628-908A-4824-B380-204058003ADD</string>
 				</dict>
 			</array>
 			<key>name</key>
