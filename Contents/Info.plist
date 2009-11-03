@@ -50,6 +50,24 @@
 					<string>word</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalent</key>
+					<string>~^h</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
+					<key>name</key>
+					<string>API (in browser)</string>
+					<key>output</key>
+					<string>discard</string>
+					<key>script</key>
+					<string>drupal-api-browser</string>
+					<key>uuid</key>
+					<string>242F83E7-AE67-4CEA-A8F1-6A2CF849DE9B</string>
+				</dict>
+				<dict>
+					<key>fallbackInput</key>
+					<string>word</string>
+					<key>input</key>
+					<string>selection</string>
 					<key>keyEquivalentConflict</key>
 					<false/>
 					<key>name</key>
@@ -631,6 +649,8 @@
 					<string>none</string>
 					<key>input</key>
 					<string>selection</string>
+					<key>keyEquivalentConflict</key>
+					<false/>
 					<key>name</key>
 					<string>Tiny URL</string>
 					<key>output</key>
